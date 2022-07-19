@@ -1,0 +1,45 @@
+div {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#calc_body {
+	width: 300px;
+	height: 400px;
+	background-color: #00ffff;
+	padding: 10px;
+}
+
+#logo {
+	color: white;
+	font-size: 34px;
+	text-align: center;
+}
+
+#result {
+	width: 218px;
+	height: 70px;
+	background-color: #ffffff;
+	margin: 2px;
+	float: left;
+	border-radius: 5px;
+	text-align: left;
+	line-height: 70px;
+	text-indent: 30px;
+}
+
+#clear {
+	background-color: red;
+	color: #ffffff;
+}
+
+.button {
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	margin: 2px;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 70px;
+}

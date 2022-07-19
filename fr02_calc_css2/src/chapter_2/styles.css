@@ -1,0 +1,84 @@
+.calculator {
+    margin: 50px auto;
+    width: 400px;
+    height: 520px;
+    background: rgb(2, 255, 230);
+    color: rgb(23, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 4px 4px #ababab;
+}
+.imagine1 {
+    position: fixed;
+    right: 0%;
+    top: 50px;
+}
+
+.text {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+.buttons {
+    margin-bottom: 50px;
+    padding-left: 13px;
+}
+
+.calc {
+    height: 90px;
+    width: 278px;
+    float: left;
+    background: rgb(238, 255, 255);
+    border-radius: 5px;
+    line-height: 60px;
+    margin: 2px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.screen {
+    float: left;
+    line-height: 45px;
+    text-align: left;
+}
+
+#p1 {
+    padding-left: 40px;
+    color: rgb(115, 115, 115);
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.btn {
+    float: left;
+    width: 90px;
+    height: 90px;
+    background: rgb(238, 255, 255);
+    color: rgb(115, 115, 115);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 85px;
+    margin: 2px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+.btn.c {
+    background: rgb(255, 98, 0);
+    color: aliceblue;
+}
